@@ -147,6 +147,6 @@ This project is for **educational and informational purposes only**. It does not
 
 ## Author
 
-**Ganesh [Your Last Name]**
+**Ganesh Goyal**
 Financial Data Analyst | Power BI · SQL · Python · Financial Modeling
-[LinkedIn](#) • [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/ganesh-goyal13/) 
