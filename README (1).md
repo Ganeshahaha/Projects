@@ -9,14 +9,14 @@ A Python-based investment analysis tool that segments investors by risk profile 
 
 ## Overview
 
-This project combines **investor profiling**, **fundamental equity screening**, **portfolio analytics**, and **price forecasting** into a single end-to-end pipeline. A user answers a short risk-tolerance questionnaire, and the tool responds with a curated, risk-aligned, and optionally sector-diversified portfolio — complete with expected return/volatility estimates, price forecasts, and an optimized share allocation.
+This project combines **investor profiling**, **fundamental equity screening**, **portfolio analytics**, and **price forecasting** into a single end-to-end pipeline. A user answers a short risk-tolerance questionnaire, and the tool responds with a curated, risk-aligned, and optionally sector-diversified portfolio complete with expected return/volatility estimates, price forecasts, and an optimized share allocation.
 
 ---
 
 ## Key Features
 
 **1. Investor Risk Profiling**
-An interactive questionnaire scores the investor across four dimensions — age, annual income, investment horizon, and capital available — and classifies them as **Low**, **Medium**, or **High** risk tolerance.
+An interactive questionnaire scores the investor across four dimensions age, annual income, investment horizon, and capital available and classifies them as **Low**, **Medium**, or **High** risk tolerance.
 
 **2. Fundamental Data Collection**
 Pulls two years of historical pricing and key fundamental ratios (P/E, P/B, ROE, ROA, Debt-to-Equity, Profit/Operating/Gross Margins) for a configurable universe of S&P 500 stocks via `yfinance`.
@@ -131,9 +131,9 @@ Funds Remaining: $134.27
 
 ## Limitations & Future Enhancements
 
-- **Correlation Assumption:** The portfolio variance calculation currently uses a simplified flat pairwise correlation (0.25) rather than computed historical correlations — replacing this with an actual correlation matrix would improve accuracy.
+- **Correlation Assumption:** The portfolio variance calculation currently uses a simplified flat pairwise correlation (0.25) rather than computed historical correlations replacing this with an actual correlation matrix would improve accuracy.
 - **Static Ticker Universe:** The stock universe is a hardcoded sample list; this could be expanded to dynamically pull the full S&P 500 constituent list.
-- **Interactive Inputs:** Risk profiling currently relies on console `input()` prompts — a natural next step is a Streamlit/web front end for broader accessibility.
+- **Interactive Inputs:** Risk profiling currently relies on console `input()` prompts a natural next step is a Streamlit/web front end for broader accessibility.
 - **Backtesting:** Adding historical backtests of recommended portfolios would validate the screening methodology against realized performance.
 - **Forecasting Models:** Additional model comparisons (ARIMA, Exponential Smoothing via Darts, LSTM) could be benchmarked against Prophet using MAPE.
 
