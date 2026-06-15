@@ -1,4 +1,4 @@
-# Risk-Profiled Stock Portfolio Recommender & Forecasting Tool
+# Personalized Portfolio Builder
 
 A Python-based investment analysis tool that segments investors by risk profile and generates tailored, diversified stock portfolio recommendations from S&P 500 equities using fundamental analysis, sector benchmarking, risk-return optimization, and time series forecasting.
 
